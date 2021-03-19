@@ -80,31 +80,31 @@ CREATE TABLE IF NOT EXISTS vehicles(
   PRIMARY KEY(id)
 )ENGINE=InnoDB;
 
-LOAD DATA LOCAL INFILE '/home/miguel/github/holocron/CSV/archive/characters.csv'
+LOAD DATA LOCAL INFILE '~/github/holocron/CSV/archive/characters.csv'
 INTO TABLE characters
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE '/home/miguel/github/holocron/CSV/archive/planets.csv'
+LOAD DATA LOCAL INFILE '~/github/holocron/CSV/archive/planets.csv'
 INTO TABLE planets
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE '/home/miguel/github/holocron/CSV/archive/species.csv'
+LOAD DATA LOCAL INFILE '~/github/holocron/CSV/archive/species.csv'
 INTO TABLE species
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE '/home/miguel/github/holocron/CSV/archive/starships.csv'
+LOAD DATA LOCAL INFILE '~/github/holocron/CSV/archive/starships.csv'
 INTO TABLE starships
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE '/home/miguel/github/holocron/CSV/archive/vehicles.csv'
+LOAD DATA LOCAL INFILE '~/github/holocron/CSV/archive/vehicles.csv'
 INTO TABLE vehicles
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
